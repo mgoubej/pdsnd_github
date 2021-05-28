@@ -203,6 +203,7 @@ def main():
         user_stats(df)
         
         #print raw data if requested
+        pd.set_option('display.max_columns',20)
         rawdata = input('\nWould you like to see raw data? Enter yes or no:')
         if rawdata.lower() == 'yes':
             i_start = 0 #index of the starting row
