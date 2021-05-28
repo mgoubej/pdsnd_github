@@ -40,7 +40,7 @@ def get_filters():
         day = input('Select day to filtery by (all, Sunday-Saturday):').lower()
 
 
-    print('-'*60)
+    print('-'*(48+len(day)) )
     return city, month, day
 
 
