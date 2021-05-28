@@ -217,7 +217,7 @@ def main():
                 cont = input('\nWould you like to see next 5 rows of data? Enter yes or no:')
         
         #offer restarting
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart? Enter yes or no:')
         if restart.lower() != 'yes':
             break
 
