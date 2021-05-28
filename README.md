@@ -10,12 +10,12 @@ Udacity Bikeshare project
 The project deals with extraction of important information from a set of database files
 
 ### Files used
-bikeshare.py 
+bikeshare.py
 chicago.csv
 new_york_city.csv
 washington.csv
 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Used NumPy documentation for handling time differences
+https://numpy.org/doc/stable/reference/arrays.datetime.html
